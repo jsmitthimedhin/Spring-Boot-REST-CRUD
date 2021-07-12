@@ -11,3 +11,4 @@ I also learned how to define the DataSource using Spring Boot's ".properties" fi
 1. Download and install Postman or any other program that allows you to perform HTTP requests to a web server.
 2. Run the two SQL scripts; first one creates a user in SQL and grants the user permission for CRUD methods, second one creates and populates the database.
 3. Run "CrudApplication" as a Java Application using with your JRE/JDK.
+4. Use Postman to request a GET method from [your web server]/api/members
