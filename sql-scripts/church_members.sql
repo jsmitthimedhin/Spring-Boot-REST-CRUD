@@ -5,9 +5,9 @@ USE `church_directory`;
 -- Table structure for table `church`
 --
 
-DROP TABLE IF EXISTS `church`;
+DROP TABLE IF EXISTS `member`;
 
-CREATE TABLE `church` (
+CREATE TABLE `member` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(45) DEFAULT NULL,
   `last_name` varchar(45) DEFAULT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE `church` (
 -- Data for table `employee`
 --
 
-INSERT INTO `church` VALUES 
+INSERT INTO `member` VALUES 
 	(1,'Emma','Stone','emma@test.com'),
 	(2,'Henry','Cavil','henry@test.com'),
 	(3,'Arundhati','Roy','arundhati@test.com'),
