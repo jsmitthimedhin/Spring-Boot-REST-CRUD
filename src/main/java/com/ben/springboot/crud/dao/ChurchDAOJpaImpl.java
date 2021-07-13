@@ -35,7 +35,9 @@ public class ChurchDAOJpaImpl implements ChurchDAO {
 	
 	@Override
 	public void saveMember(Member newMember) {
-			entityManager.merge(newMember);
+		Member dbMember = entityManager.merge(newMember);
+		newMember.setId(dbMember.getId());
+			
 		}
 
 	@Override
