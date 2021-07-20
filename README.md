@@ -1,8 +1,9 @@
 # Spring-Boot-REST-CRUD
 This application allows users to create, read, update, and delete users in a MySQL database using HTTP methods, built using Spring Boot.
+The main branch uses Hibernate to connect to the database and the second branch does it directly using JPA's Entity Manager object.
 
 ## Process
-The application is built with Spring Boot and allowed me to learn how to initialize a Spring Boot application that implements Spring Web, MySQL connector, JPA, and DevTools. The main branch uses Hibernate to connect to the database and the second branch does it directly using JPA's Entity Manager object.
+The application is built with Spring Boot and allowed me to learn how to initialize a Spring Boot application that implements Spring Web, MySQL connector, JPA, and DevTools. 
 
 I also learned how to define the DataSource using Spring Boot's ".properties" file instead of defining it using annotations and hard-coded configurations (which is so much easier and less error-prone!). The rest is just creating the REST controller, DAO, Service class, and entity class, and mapping each class with Spring or Hibernate annotations, similar to other projects I've worked on.
 
